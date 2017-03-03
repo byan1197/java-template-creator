@@ -1,2 +1,3 @@
 # java-template-creator
-creates a .java file templates
+creates .java file templates in linux shell scripting
+Just a mini side project!
