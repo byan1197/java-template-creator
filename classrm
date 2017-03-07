@@ -1,0 +1,4 @@
+#!/bin/bash
+#removes java class files in a directory
+
+rm $PWD/*.class
