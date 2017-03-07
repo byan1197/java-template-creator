@@ -1,10 +1,5 @@
 #!/bin/bash
 #Creates java files
 
-TEXT="public class $1{
-	public static void main(String[] args){
-		//TODO
-	}
-}"
-
-echo $TEXT>$PWD"/"$1.java
+TEXT="public class $1{\n\tpublic static void main(String[] args){\n\t\t//TODO\n\t}\n}"
+printf "$TEXT">$PWD"/"$1.java
